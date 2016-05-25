@@ -48,7 +48,7 @@ void QuickSort(int array[], int start, int end) {
 		QuickSort(array, base + 1, end);
 	}
 }
-int main() {
+/*int main() {
 //	srand((int)time(0));//初始化随机种子：若不初始化，每次递归的随机种子不会变化，递归次数固定。
 	int array[] = { 4, 3, 2, 1, 9, 7, 5, 8, 6 };
 	int size = sizeof(array) / sizeof(*array); //求数组长度
@@ -57,4 +57,4 @@ int main() {
 		cout << array[i] << endl;
 	}
 	return 0;
-}
+}*/

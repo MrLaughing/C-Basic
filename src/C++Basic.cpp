@@ -21,9 +21,9 @@ void funC(int &k) {
 int main1() {
 	int a = 1;
 	funA(a);
-	cout << "a=" << a << endl;//1
+	cout << "a=" << a << endl; //1
 	funB(&a);
-	cout << "a=" << a << endl;//21
+	cout << "a=" << a << endl; //21
 	funC(a);
 	cout << "a=" << a << endl;
 	cout << "Hello World!!!" << endl; // prints Hello World!!!
